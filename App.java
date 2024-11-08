@@ -10,7 +10,7 @@ public class App {
         System.out.print("Enter the name of the word file: ");
         String fname = scan.nextLine();
         LinkedHashMap<String,ArrayList<String>> tokens = WordFileReader.readTokensFromFile(fname);
-        TokenWriter.writeTokensToScreen(tokens);
+        // TokenWriter.writeTokensToScreen(tokens);
         Author au = new Author(tokens);
         int howMany, adjLikely, advLikely, preLikely;
         ArrayList<String> sentences;
