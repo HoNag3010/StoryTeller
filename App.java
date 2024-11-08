@@ -43,7 +43,8 @@ public class App {
             } 
         } while (restart.equalsIgnoreCase("y"));
 
-        System.out.println("\nThank you for using StoryTeller!");       // Thank you message
+        System.out.println("\nThank you for using StoryTeller!");       // Thank you message\
+        scan.close();
     }
 
     /**
