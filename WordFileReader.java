@@ -24,7 +24,7 @@ public class WordFileReader {
                 if (line.isEmpty()) {
                     continue;
                 }
-                parts = line.split(" ");        // Split based on " ", I thought the space was bigger so I used \t
+                parts = line.split(" ");
                 word = parts[0];
                 category = parts[1];
                 if (!result.containsKey(category)) {                // Make a new category if there is none in the LinkedHasMap
