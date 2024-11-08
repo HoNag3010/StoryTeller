@@ -16,7 +16,7 @@ public class WordFileReader {
                 if (line.isEmpty()) {
                     continue;
                 }
-                parts = line.split("\t");
+                parts = line.split(" ");
                 word = parts[0];
                 category = parts[1];
                 if (!result.containsKey(category)) {
